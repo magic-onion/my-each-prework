@@ -6,7 +6,7 @@ def my_each(collection)
     i += 1 
   end
 else
-  "Huh?"
+  collection.to_ary
 end
   
 end
