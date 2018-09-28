@@ -5,8 +5,6 @@ def my_each(collection)
     yield(collection[i])
     i += 1 
   end
-else
-  collection.to_ary
 end
   
 end
